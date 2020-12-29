@@ -8,19 +8,21 @@ This excercise is to practice on simple api vulneberility that can lead to remot
 ```
 # create virtual environment
 python3 -m venv venv
+
 # activate environment
 source venv/bin/activate
 ```
 
 * Install requirements
 ```
-pip3 install -r requirements
+pip3 install -r requirements.txt
 ```
 
 * deploy flask
 ```
 # deploy locally
 flask run
+
 # deploy remotely
 flask run --host=0.0.0.0
 ```
